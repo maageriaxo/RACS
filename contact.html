@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rimpa Adventist Comprehensive School</title>
+    <meta name="description" content="Contact Rimpa Adventist Comprehensive School for admissions, school enquiries, transport information, fees, and other questions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav class="nav">
+                <a href="index.html#top" class="brand">
+                    <div class="brand-mark">
+                        <img src="images/logo.jpeg" alt="Rimpa Adventist Comprehensive School logo">
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-title">
+                            <span class="brand-title-line-1">Rimpa Adventist</span>
+                            <span class="brand-title-line-2">Comprehensive School</span>
+                        </span>
+                        <span class="brand-subtitle">Ready To Shine</span>
+                    </div>
+                </a>
+
+                <div class="nav-links">
+                    <ul class="ql-main-links">
+                        <li class="ql-item">
+                            <a href="index.html#top" class="ql-link">Home</a>
+                        </li>
+                        <li class="ql-item">
+                            <a href="admissions.html" class="ql-link has-dropdown">Admissions</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Admissions menu">
+                                <a href="admissions.html#admission-process">
+                                    Admission process
+                                </a>
+                                <a href="admissions.html#online-application">
+                                    Online application
+                                </a>
+                                <a href="admissions.html#admission-requirements">
+                                    Admission &amp; graduation requirements
+                                </a>
+                                <a href="admissions.html#fee-structure">
+                                    Fee structure
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="#" class="ql-link has-dropdown coming-soon-trigger">Academics</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Academics menu">
+                                <a href="#" class="coming-soon-trigger">Calendar</a>
+                                <a href="#" class="coming-soon-trigger">Timetable</a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="about.html" class="ql-link has-dropdown">About</a>
+                            <div class="ql-dropdown" role="menu" aria-label="About menu">
+                                <a href="about.html#vision">
+                                    Vision
+                                </a>
+                                <a href="about.html#mission">
+                                    Mission
+                                </a>
+                                <a href="about.html#gallery">
+                                    Gallery
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="student-life.html" class="ql-link has-dropdown">Student Life</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Student life menu">
+                                <a href="student-life.html#school-menu">
+                                    School menu
+                                </a>
+                                <a href="student-life.html#transport-fees">
+                                    Transport fees
+                                </a>
+                                <a href="student-life.html#uniforms">
+                                    School uniform guide
+                                </a>
+                                <a href="student-life.html#activities">
+                                    Swimming &amp; activities
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="contact.html" class="ql-link" aria-current="page" style="color: var(--green-main); font-weight: 700;">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-controls">
+                    <button type="button" id="nav-search-toggle" class="ql-search-toggle" aria-label="Search site (Press Ctrl+K)" title="Search (Ctrl+K)">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="nav-overlay" id="nav-overlay"></div>
+
+        <div class="nav-search-panel" id="nav-search-panel" aria-hidden="true">
+            <div class="nav-search-inner">
+                <div class="nav-search-input">
+                    <input id="nav-search-input" type="search" placeholder="Search fees, transport zones, menu, admission..." aria-label="Search site content">
+                    <span class="nav-search-shortcut-hint">ESC to close</span>
+                </div>
+                <button type="button" id="nav-search-close" class="nav-search-close" aria-label="Close search">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <div class="nav-search-message" id="nav-search-message" aria-live="polite"></div>
+        </div>
+
+        <main id="top">
+            <div style="max-width: 1120px; margin: 0 auto; padding: 0 1rem;">
+                
+                <!-- 1. HERO SECTION -->
+                <section class="contact-hero-card" aria-labelledby="contact-heading">
+                    <span class="contact-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        Get in Touch
+                    </span>
+                    <h1 id="contact-heading" class="contact-hero-title">Contact Us</h1>
+                    <p class="contact-hero-subtitle">
+                        We would love to hear from you. Reach out to us for admissions, school enquiries, transport information, or any other questions.
+                    </p>
+                    <p style="font-size: 0.92rem; color: var(--green-dark); font-weight: 600; margin-bottom: 0.5rem;">
+                        Rimpa Adventist Comprehensive School (RACS) &bull; Kajiado County, Kenya
+                    </p>
+
+                    <div class="contact-hero-quick-links">
+                        <a href="#contact-cards" class="contact-quick-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            Call Numbers
+                        </a>
+                        <a href="#contact-cards" class="contact-quick-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            Official Email
+                        </a>
+                        <a href="#whatsapp-banner" class="contact-quick-pill" style="color: #15803d; background: #f0fdf4; border-color: #86efac;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path></svg>
+                            WhatsApp Chat
+                        </a>
+                        <a href="#contact-form" class="contact-quick-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Send Enquiry Message
+                        </a>
+                        <a href="#faq" class="contact-quick-pill">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            Frequently Asked Questions
+                        </a>
+                    </div>
+                </section>
+
+                <!-- 2. CONTACT INFORMATION CARDS -->
+                <section id="contact-cards" aria-labelledby="cards-section-heading">
+                    <h2 id="cards-section-heading" class="visually-hidden" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Official Contact Details</h2>
+                    
+                    <div class="contact-cards-grid">
+                        <!-- Phone Card -->
+                        <div class="contact-card">
+                            <div>
+                                <div class="contact-card-header">
+                                    <div class="contact-card-icon" aria-hidden="true">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    </div>
+                                    <div>
+                                        <span class="contact-card-label">Official Phone</span>
+                                        <h3 class="contact-card-heading">Call Administration</h3>
+                                    </div>
+                                </div>
+                                <div class="contact-card-body">
+                                    <p style="margin-bottom: 0.35rem;">
+                                        <a href="tel:+254729622381" title="Call 0729 622 381">0729 622 381</a>
+                                    </p>
+                                    <p style="margin-bottom: 0.35rem;">
+                                        <a href="tel:+254724855225" title="Call 0724 855 225">0724 855 225</a>
+                                    </p>
+                                    <p class="contact-card-subtext">Direct helplines for admission enquiries, fee verification, and learner attendance.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="tel:+254729622381" class="contact-card-btn">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                    Call 0729 622 381
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Email Card -->
+                        <div class="contact-card">
+                            <div>
+                                <div class="contact-card-header">
+                                    <div class="contact-card-icon" aria-hidden="true">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                    </div>
+                                    <div>
+                                        <span class="contact-card-label">Official Email</span>
+                                        <h3 class="contact-card-heading">Send Email</h3>
+                                    </div>
+                                </div>
+                                <div class="contact-card-body">
+                                    <p style="margin-bottom: 0.35rem; word-break: break-all;">
+                                        <a href="mailto:RACS2021@gmail.com" title="Email RACS2021@gmail.com">RACS2021@gmail.com</a>
+                                    </p>
+                                    <p class="contact-card-subtext">For official correspondence, soft-copy application forms, transfer letters, and enquiries.</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="mailto:RACS2021@gmail.com" class="contact-card-btn">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    Send Email
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Location Card -->
+                        <div class="contact-card">
+                            <div>
+                                <div class="contact-card-header">
+                                    <div class="contact-card-icon" aria-hidden="true">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <div>
+                                        <span class="contact-card-label">Campus Location</span>
+                                        <h3 class="contact-card-heading">Visit Our Campus</h3>
+                                    </div>
+                                </div>
+                                <div class="contact-card-body">
+                                    <p style="font-weight: 600; color: var(--text-main); margin-bottom: 0.25rem;">
+                                        Rimpa, Kajiado County
+                                    </p>
+                                    <p class="contact-card-subtext">
+                                        Approximately 10 metres from Cana Hospital, off Magadi Road. Convenient and safe access for day scholars and visitors.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="https://maps.google.com/?q=Rimpa+Cana+Hospital+Kajiado" target="_blank" rel="noopener noreferrer" class="contact-card-btn">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                                    View on Map
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Office Hours Card -->
+                        <div class="contact-card">
+                            <div>
+                                <div class="contact-card-header">
+                                    <div class="contact-card-icon" aria-hidden="true">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                    </div>
+                                    <div>
+                                        <span class="contact-card-label">School Hours</span>
+                                        <h3 class="contact-card-heading">Office Working Hours</h3>
+                                    </div>
+                                </div>
+                                <div class="contact-card-body">
+                                    <p style="font-size: 1.15rem; font-weight: 800; color: var(--green-dark); margin-bottom: 0.25rem;">
+                                        7:00 AM – 6:00 PM
+                                    </p>
+                                    <p style="font-weight: 600; color: var(--text-main); margin-bottom: 0.25rem;">
+                                        Monday to Friday
+                                    </p>
+                                    <p class="contact-card-subtext">
+                                        Office open for parent consultations, admissions interviews, and administrative services on weekdays. Closed on weekends and public holidays.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="contact-card-badge-open">
+                                    <span class="status-dot" aria-hidden="true"></span>
+                                    <span>Open Mon – Fri &bull; 7am to 6pm</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. WHATSAPP / QUICK CONTACT -->
+                <section id="whatsapp-banner" aria-labelledby="whatsapp-heading">
+                    <div class="whatsapp-cta-card">
+                        <div class="whatsapp-cta-info">
+                            <div class="whatsapp-cta-icon" aria-hidden="true">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM12.04 20.15c-1.48 0-2.93-.39-4.2-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a7.89 7.89 0 0 1-1.21-4.39c0-4.38 3.56-7.94 7.94-7.94 2.12 0 4.12.83 5.62 2.33 1.5 1.5 2.33 3.5 2.33 5.62 0 4.38-3.56 7.94-7.94 7.94zm4.35-5.94c-.24-.12-1.41-.7-1.63-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.31-.74-1.79-.2-.48-.4-.41-.54-.42l-.46-.01c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.65.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.41-.58 1.61-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 id="whatsapp-heading" class="whatsapp-cta-title">Chat with Us on WhatsApp</h3>
+                                <p class="whatsapp-cta-text">
+                                    Need quick answers on school admission vacancies, fee balances, uniform pickup, or transport routes? Our school administration is available on WhatsApp during office hours.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <a
+                                href="https://wa.me/254729622381?text=Hello%20RACS,%20I%20would%20like%20to%20enquire%20about%20admissions%20and%20school%20programmes."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="whatsapp-btn"
+                                aria-label="Open WhatsApp chat with Rimpa Adventist Comprehensive School at +254 729 622 381"
+                            >
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+                                </svg>
+                                Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. CONTACT ENQUIRY FORM -->
+                <section id="contact-form" class="contact-form-shell" aria-labelledby="form-heading">
+                    <div style="margin-bottom: 1.5rem;">
+                        <h2 id="form-heading" class="section-title" style="font-size: 1.45rem; margin-bottom: 0.35rem;">Send Us a Message</h2>
+                        <p class="section-subtitle">
+                            Please fill out the form below. Required fields are marked with <span class="required-mark" aria-hidden="true">*</span>. Our team will get back to you promptly.
+                        </p>
+                    </div>
+
+                    <!-- Status alert message container -->
+                    <div id="form-status" class="form-status-alert" role="alert" aria-live="polite"></div>
+
+                    <form id="enquiry-form" novalidate>
+                        <div class="form-grid">
+                            <!-- Full Name -->
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">
+                                    <span>Full Name <span class="required-mark">*</span></span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="form-name"
+                                    name="fullName"
+                                    class="form-control"
+                                    placeholder="e.g. Grace Wanjiku"
+                                    autocomplete="name"
+                                    required
+                                    aria-describedby="error-name"
+                                >
+                                <span class="form-error" id="error-name">Please provide your full name (at least 2 characters).</span>
+                            </div>
+
+                            <!-- Email Address -->
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">
+                                    <span>Email Address <span class="required-mark">*</span></span>
+                                </label>
+                                <input
+                                    type="email"
+                                    id="form-email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="e.g. grace@example.com"
+                                    autocomplete="email"
+                                    required
+                                    aria-describedby="error-email"
+                                >
+                                <span class="form-error" id="error-email">Please enter a valid email address (e.g. name@domain.com).</span>
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <label for="form-phone" class="form-label">
+                                    <span>Phone Number <span class="required-mark">*</span></span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="form-phone"
+                                    name="phone"
+                                    class="form-control"
+                                    placeholder="e.g. 0712 345 678"
+                                    autocomplete="tel"
+                                    required
+                                    aria-describedby="error-phone"
+                                >
+                                <span class="form-error" id="error-phone">Please enter a valid phone number (e.g. 0712 345 678 or +254 712 345 678).</span>
+                            </div>
+
+                            <!-- Subject / Enquiry Type -->
+                            <div class="form-group">
+                                <label for="form-subject" class="form-label">
+                                    <span>Subject / Enquiry Type <span class="required-mark">*</span></span>
+                                </label>
+                                <select
+                                    id="form-subject"
+                                    name="enquiryType"
+                                    class="form-control"
+                                    required
+                                    aria-describedby="error-subject"
+                                >
+                                    <option value="" disabled selected>-- Select enquiry type --</option>
+                                    <option value="General Enquiry">General Enquiry</option>
+                                    <option value="Admissions">Admissions</option>
+                                    <option value="Fees">Fees</option>
+                                    <option value="Transport">Transport</option>
+                                    <option value="Academics">Academics</option>
+                                    <option value="School Activities">School Activities</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <span class="form-error" id="error-subject">Please select the type of enquiry.</span>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group form-group-full">
+                                <label for="form-message" class="form-label">
+                                    <span>Your Message <span class="required-mark">*</span></span>
+                                    <span style="font-size: 0.78rem; font-weight: normal; color: var(--text-muted);">(Min. 10 characters)</span>
+                                </label>
+                                <textarea
+                                    id="form-message"
+                                    name="message"
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="How can we assist you? Please mention the learner's class level or specific query if applicable..."
+                                    required
+                                    aria-describedby="error-message"
+                                ></textarea>
+                                <span class="form-error" id="error-message">Please enter your message (at least 10 characters).</span>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" id="form-submit-btn" class="contact-submit-btn">
+                                <span class="submit-btn-spinner" id="submit-spinner" aria-hidden="true"></span>
+                                <span id="submit-btn-text">Send Message</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                            <p class="form-privacy-note">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                Your contact information is handled confidentially by RACS administration.
+                            </p>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- 6. ADMISSIONS CTA SECTION -->
+                <section class="admissions-cta-banner" aria-labelledby="cta-heading">
+                    <div class="admissions-cta-content">
+                        <span class="admissions-cta-badge">Admissions Open</span>
+                        <h2 id="cta-heading" class="admissions-cta-title">Planning to join RACS?</h2>
+                        <p class="admissions-cta-text">
+                            Have questions about admissions, fees, transport, or our academic programmes? Our admissions team is ready to guide your family through enrolment into Play Group, Pre-School, Lower Primary, and Upper Primary.
+                        </p>
+                        <div class="admissions-cta-actions">
+                            <a href="admissions.html" class="btn-cta-gold">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                                Enquire About Admissions
+                            </a>
+                            <a href="admissions.html#fee-structure" class="btn-cta-outline">
+                                View Fee Structure
+                            </a>
+                            <a href="student-life.html#transport-fees" class="btn-cta-outline">
+                                View Transport Zones
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 7. FAQ SECTION -->
+                <section id="faq" class="section-shell" aria-labelledby="faq-heading">
+                    <div class="section-header">
+                        <div>
+                            <span class="contact-badge">Common Questions</span>
+                            <h2 id="faq-heading" class="section-title">Frequently Asked Questions</h2>
+                            <p class="section-subtitle">
+                                Quick answers to common queries based on our school records and policies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-accordion">
+                        <!-- FAQ 1 -->
+                        <details class="faq-item">
+                            <summary class="faq-summary">
+                                <span>How can I apply for admission at RACS?</span>
+                                <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </summary>
+                            <div class="faq-content">
+                                <p>
+                                    We admit learners into Play Group, Pre-Primary (PP1 &amp; PP2), Lower Primary (Grades 1–3), and Upper Primary (Grades 4–6).
+                                    To apply, parents or guardians submit a completed application form accompanied by a copy of the learner’s birth certificate, recent passport-size photographs, and previous school transfer reports. Detailed requirements can be found on our <a href="admissions.html#admission-process">Admissions Page</a> or requested directly at our administration office.
+                                </p>
+                            </div>
+                        </details>
+
+                        <!-- FAQ 2 -->
+                        <details class="faq-item">
+                            <summary class="faq-summary">
+                                <span>How can I contact the school administration?</span>
+                                <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </summary>
+                            <div class="faq-content">
+                                <p>
+                                    You can call or message our administration team at <strong><a href="tel:+254729622381">0729 622 381</a></strong> or <strong><a href="tel:+254724855225">0724 855 225</a></strong>. You can also send an email to <strong><a href="mailto:RACS2021@gmail.com">RACS2021@gmail.com</a></strong>. Our office is open Monday through Friday from 7:00 AM to 6:00 PM.
+                                </p>
+                            </div>
+                        </details>
+
+                        <!-- FAQ 3 -->
+                        <details class="faq-item">
+                            <summary class="faq-summary">
+                                <span>What are the school tuition fees?</span>
+                                <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </summary>
+                            <div class="faq-content">
+                                <p>
+                                    Official termly tuition fees are:
+                                </p>
+                                <ul style="margin: 0.5rem 0 0.5rem 1.4rem; line-height: 1.7;">
+                                    <li><strong>Play Group:</strong> KSh 6,000 per term</li>
+                                    <li><strong>Pre-Primary (PP1 &amp; PP2):</strong> KSh 8,500 per term</li>
+                                    <li><strong>Lower Primary (Grades 1–3):</strong> KSh 11,000 per term</li>
+                                    <li><strong>Upper Primary (Grades 4–6):</strong> KSh 13,000 per term</li>
+                                </ul>
+                                <p>
+                                    School meals (10 o'clock break &amp; hot lunch) are KSh 4,500 per term. View the complete table on our <a href="admissions.html#fee-structure">Fee Structure</a> page.
+                                </p>
+                            </div>
+                        </details>
+
+                        <!-- FAQ 4 -->
+                        <details class="faq-item">
+                            <summary class="faq-summary">
+                                <span>Does the school provide transport, and which routes are covered?</span>
+                                <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </summary>
+                            <div class="faq-content">
+                                <p>
+                                    Yes, RACS operates school transport covering 7 designated operational zones including Mashuria, Rimpa, Nalepo, Kahuho Stage, Kamura, Kanisani, Destiny, Kwa Maji, Gichagi, Kiserian Town, QuickMart, and Kandisi. Termly charges range from KSh 4,000 for Zone 1 to KSh 8,500 for Zone 7. Full stage details are listed on our <a href="student-life.html#transport-fees">Transport Fees</a> page.
+                                </p>
+                            </div>
+                        </details>
+
+                        <!-- FAQ 5 -->
+                        <details class="faq-item">
+                            <summary class="faq-summary">
+                                <span>How can I arrange a visit to the school?</span>
+                                <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </summary>
+                            <div class="faq-content">
+                                <p>
+                                    Parents and guardians are warmly welcome to visit our campus in Rimpa, located approximately 10 metres from Cana Hospital off Magadi Road, Kajiado County. Our office is open on weekdays from <strong>7:00 AM to 6:00 PM</strong>. To schedule a guided walkthrough of our classrooms and compound or meet with the Headteacher, please contact us by phone or WhatsApp at <strong>0729 622 381</strong>.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- 8. FOOTER -->
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-col footer-col-brand">
+                    <p class="footer-brand-title"><strong>Rimpa Adventist Comprehensive School (RACS)</strong></p>
+                    <p class="footer-tagline">Learning, character, and faith – nurturing every child through holistic Christian education.</p>
+                </div>
+                <div class="footer-col footer-col-links">
+                    <p class="footer-heading">Quick Links</p>
+                    <ul class="footer-nav-list">
+                        <li><a href="admissions.html#fee-structure">Fee Structure</a></li>
+                        <li><a href="student-life.html#transport-fees">Transport Fees</a></li>
+                        <li><a href="student-life.html#school-menu">School Menu</a></li>
+                        <li><a href="student-life.html#uniforms">Uniform Guide</a></li>
+                        <li><a href="about.html#gallery">Photo Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-contact">
+                    <p class="footer-heading">Contact &amp; Location</p>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <span class="footer-contact-label">Phone / WhatsApp:</span>
+                            <a href="tel:+254729622381">0729 622 381</a> &bull; <a href="tel:+254724855225">0724 855 225</a>
+                        </li>
+                        <li>
+                            <span class="footer-contact-label">Email:</span>
+                            <a href="mailto:RACS2021@gmail.com">RACS2021@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="footer-contact-label">Campus Location:</span>
+                            <span>Rimpa, approx. 10m from Cana Hospital, off Magadi Rd, Kajiado</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-inner">
+                    <p>&copy; <span id="year"></span> RACS. All rights reserved.</p>
+                    <p>Website managed by the RACS team.</p>
+                </div>
+            </div>
+        </footer>
+        <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+    </div>
+
+    <!-- Coming Soon Modal -->
+    <div class="coming-soon-modal" id="coming-soon-modal" aria-hidden="true">
+        <div class="coming-soon-content">
+            <button type="button" class="coming-soon-close" id="coming-soon-close" aria-label="Close modal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <h2 class="coming-soon-title">Coming Soon!</h2>
+            <p class="coming-soon-text">This section is currently being prepared. Please check back later.</p>
+        </div>
+    </div>
+
+    <!-- Search Engine Script -->
+    <script src="search.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Contact Form Validation & Submission Script -->
+    <script>
+        (function () {
+            /**
+             * BACKEND API ENDPOINT CONFIGURATION:
+             * 
+             * Set this constant to your backend contact/email API endpoint URL when available.
+             * Examples:
+             *   const CONTACT_API_ENDPOINT = "https://formspree.io/f/your-form-id";
+             *   const CONTACT_API_ENDPOINT = "https://api.yourdomain.com/racs/contact";
+             * 
+             * If null, the client performs thorough validation and offers a 1-click option
+             * to send via WhatsApp or Email directly to the school administration.
+             */
+            const CONTACT_API_ENDPOINT = null;
+
+            const form = document.getElementById('enquiry-form');
+            const submitBtn = document.getElementById('form-submit-btn');
+            const submitBtnText = document.getElementById('submit-btn-text');
+            const submitSpinner = document.getElementById('submit-spinner');
+            const statusAlert = document.getElementById('form-status');
+
+            if (!form) return;
+
+            const fields = {
+                name: {
+                    input: document.getElementById('form-name'),
+                    error: document.getElementById('error-name'),
+                    validate: function (val) {
+                        return val.trim().length >= 2;
+                    }
+                },
+                email: {
+                    input: document.getElementById('form-email'),
+                    error: document.getElementById('error-email'),
+                    validate: function (val) {
+                        // Standard RFC 5322 compatible regex
+                        const re = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+                        return re.test(val.trim());
+                    }
+                },
+                phone: {
+                    input: document.getElementById('form-phone'),
+                    error: document.getElementById('error-phone'),
+                    validate: function (val) {
+                        // Accepts Kenyan formats (07..., 01..., +254...) and international numbers
+                        const cleaned = val.replace(/[\s\-\(\)]/g, '');
+                        return /^(\+?254|0)[17]\d{8}$/.test(cleaned) || /^\+?\d{9,15}$/.test(cleaned);
+                    }
+                },
+                subject: {
+                    input: document.getElementById('form-subject'),
+                    error: document.getElementById('error-subject'),
+                    validate: function (val) {
+                        return val && val.trim() !== "";
+                    }
+                },
+                message: {
+                    input: document.getElementById('form-message'),
+                    error: document.getElementById('error-message'),
+                    validate: function (val) {
+                        return val.trim().length >= 10;
+                    }
+                }
+            };
+
+            // Real-time validation on input/change
+            Object.keys(fields).forEach(function (key) {
+                const item = fields[key];
+                const eventName = item.input.tagName.toLowerCase() === 'select' ? 'change' : 'input';
+                item.input.addEventListener(eventName, function () {
+                    if (item.input.classList.contains('is-invalid')) {
+                        if (item.validate(item.input.value)) {
+                            item.input.classList.remove('is-invalid');
+                            if (item.error) item.error.style.display = 'none';
+                        }
+                    }
+                });
+            });
+
+            function showStatus(type, messageHtml) {
+                statusAlert.className = 'form-status-alert is-' + type;
+                statusAlert.innerHTML = messageHtml;
+                statusAlert.style.display = 'block';
+                statusAlert.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            function clearStatus() {
+                statusAlert.style.display = 'none';
+                statusAlert.innerHTML = '';
+            }
+
+            function setLoading(isLoading) {
+                if (isLoading) {
+                    submitBtn.disabled = true;
+                    submitSpinner.style.display = 'inline-block';
+                    submitBtnText.textContent = 'Sending Message...';
+                } else {
+                    submitBtn.disabled = false;
+                    submitSpinner.style.display = 'none';
+                    submitBtnText.textContent = 'Send Message';
+                }
+            }
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                clearStatus();
+
+                let isValid = true;
+                let firstInvalidInput = null;
+
+                // Validate each field
+                Object.keys(fields).forEach(function (key) {
+                    const item = fields[key];
+                    const val = item.input.value;
+                    const passes = item.validate(val);
+
+                    if (!passes) {
+                        isValid = false;
+                        item.input.classList.add('is-invalid');
+                        if (item.error) item.error.style.display = 'block';
+                        if (!firstInvalidInput) {
+                            firstInvalidInput = item.input;
+                        }
+                    } else {
+                        item.input.classList.remove('is-invalid');
+                        if (item.error) item.error.style.display = 'none';
+                    }
+                });
+
+                if (!isValid) {
+                    if (firstInvalidInput) {
+                        firstInvalidInput.focus();
+                    }
+                    showStatus('error', '<strong>Please check the required fields:</strong> Please correct the highlighted errors above before submitting.');
+                    return;
+                }
+
+                // Collect validated form data
+                const formData = {
+                    fullName: fields.name.input.value.trim(),
+                    email: fields.email.input.value.trim(),
+                    phone: fields.phone.input.value.trim(),
+                    enquiryType: fields.subject.input.value,
+                    message: fields.message.input.value.trim(),
+                    submittedAt: new Date().toISOString()
+                };
+
+                // Prevent accidental duplicate submission
+                setLoading(true);
+
+                // Check whether a backend endpoint is configured
+                if (!CONTACT_API_ENDPOINT) {
+                    // Transparent Christian school experience: No fake success when no backend is set
+                    setTimeout(function () {
+                        setLoading(false);
+
+                        // Build encoded WhatsApp and Email messages for immediate delivery
+                        const waText = encodeURIComponent(
+                            "Hello RACS Administration,\n\n" +
+                            "My Name: " + formData.fullName + "\n" +
+                            "Phone: " + formData.phone + "\n" +
+                            "Email: " + formData.email + "\n" +
+                            "Enquiry Type: " + formData.enquiryType + "\n\n" +
+                            "Message:\n" + formData.message
+                        );
+                        const waUrl = "https://wa.me/254729622381?text=" + waText;
+
+                        const mailSubject = encodeURIComponent("Enquiry: " + formData.enquiryType + " - " + formData.fullName);
+                        const mailBody = encodeURIComponent(
+                            "Name: " + formData.fullName + "\n" +
+                            "Phone: " + formData.phone + "\n" +
+                            "Email: " + formData.email + "\n" +
+                            "Enquiry Type: " + formData.enquiryType + "\n\n" +
+                            "Message:\n" + formData.message
+                        );
+                        const mailUrl = "mailto:RACS2021@gmail.com?subject=" + mailSubject + "&body=" + mailBody;
+
+                        showStatus('info', 
+                            '<strong>Thank you, ' + escapeHtml(formData.fullName) + '!</strong><br>' +
+                            'Your enquiry details have been validated. Automated online form dispatch is pending backend integration. To ensure your message reaches us right now, please click below to send via WhatsApp or Email:' +
+                            '<div style="margin-top: 0.85rem; display: flex; flex-wrap: wrap; gap: 0.6rem;">' +
+                                '<a href="' + waUrl + '" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" style="padding: 0.5rem 1.1rem; font-size: 0.86rem;">' +
+                                    'Send to School WhatsApp (0729 622 381)' +
+                                '</a>' +
+                                '<a href="' + mailUrl + '" class="btn-secondary" style="padding: 0.5rem 1.1rem; font-size: 0.86rem; color: var(--green-dark); font-weight: 700;">' +
+                                    'Send via Email (RACS2021@gmail.com)' +
+                                '</a>' +
+                            '</div>'
+                        );
+                    }, 400);
+                    return;
+                }
+
+                // If backend API endpoint is configured, send HTTP POST request
+                fetch(CONTACT_API_ENDPOINT, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                })
+                .then(function (response) {
+                    if (response.ok) {
+                        return response.json().catch(function () { return {}; });
+                    }
+                    throw new Error('Network response was not ok (status: ' + response.status + ')');
+                })
+                .then(function () {
+                    setLoading(false);
+                    form.reset();
+                    showStatus('success', '<strong>Message Sent Successfully!</strong> Thank you for reaching out to Rimpa Adventist Comprehensive School. Our administration will respond to your enquiry shortly.');
+                })
+                .catch(function (error) {
+                    setLoading(false);
+                    console.error('Contact submission error:', error);
+                    showStatus('error', '<strong>Submission Error:</strong> We could not deliver your message right now. Please reach us directly via phone at <a href="tel:+254729622381" style="color:#991b1b;font-weight:700;">0729 622 381</a> or WhatsApp.');
+                });
+            });
+
+            function escapeHtml(str) {
+                return (str || '').replace(/[&<>"']/g, function (c) {
+                    return {
+                        '&': '&amp;',
+                        '<': '&lt;',
+                        '>': '&gt;',
+                        '"': '&quot;',
+                        "'": '&#039;'
+                    }[c];
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

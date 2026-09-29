@@ -171,13 +171,13 @@
             snippet: "Sample weekly meal plan: Morning break porridge and white chocolate with mandazi or chapati; nutritious hot lunches of Ugali, Rice, Beans, and Greens."
         },
         {
-            title: "Friday School Menu: Chapati & Beans",
+            title: "Thursday School Menu: Chapati & Beans",
             category: "Student Life",
             badgeClass: "badge-life",
             page: "student-life.html",
             hash: "school-menu",
-            keywords: ["chapati", "beans", "friday", "friday lunch", "white chocolate"],
-            snippet: "Learner favorite Friday meal plan: Morning White Chocolate & Chapati, followed by lunchtime Chapati & Bean stew."
+            keywords: ["chapati", "beans", "thursday", "thursday lunch", "white chocolate"],
+            snippet: "Learner favorite Thursday meal plan: Morning White Chocolate & Chapati, followed by lunchtime Chapati & Bean stew (Friday: White Chocolate & Mandazi, Rice & Beans)."
         },
         {
             title: "School Uniform Guide & Prices",
@@ -283,33 +283,69 @@
             snippet: "To provide a Christ-centered, inclusive, and holistic education that nurtures the spiritual, intellectual, physical, and social development of every learner."
         },
 
-        // --- CONTACTS & LOCATION ---
+        // --- CONTACTS, LOCATION & ENQUIRIES ---
         {
-            title: "Contact Information & Phone Numbers",
+            title: "Contact Us & Official Helplines",
             category: "Contact",
             badgeClass: "badge-general",
-            page: "about.html",
-            hash: "contact",
-            keywords: ["contact", "contacts", "phone", "call", "whatsapp", "0729622381", "0724855225", "mobile", "helpline", "inquiry"],
-            snippet: "Phone / WhatsApp: 0729 622 381 | 0724 855 225. Call or message us for enquiries regarding admissions, fees, and transport."
+            page: "contact.html",
+            hash: "contact-cards",
+            keywords: ["contact", "contacts", "phone", "call", "whatsapp", "0729622381", "0724855225", "mobile", "helpline", "inquiry", "enquiry", "talk to us"],
+            snippet: "Official school phone & WhatsApp numbers: 0729 622 381 | 0724 855 225. Call or message us for enquiries on admissions, fees, transport, or visits."
         },
         {
-            title: "Email & Official Correspondence",
+            title: "Official Email Address",
             category: "Contact",
             badgeClass: "badge-general",
-            page: "about.html",
-            hash: "contact",
-            keywords: ["email", "e-mail", "mail", "racs2021@gmail.com", "address", "inbox", "correspondence"],
-            snippet: "Send official email enquiries and soft copy admission documents to RACS2021@gmail.com."
+            page: "contact.html",
+            hash: "contact-cards",
+            keywords: ["email", "e-mail", "mail", "racs2021@gmail.com", "address", "inbox", "correspondence", "send documents"],
+            snippet: "Send official email enquiries and soft-copy admission documents to RACS2021@gmail.com."
         },
         {
-            title: "Campus Location (Near Cana Hospital)",
+            title: "Campus Location & Directions (Near Cana Hospital)",
             category: "Location",
             badgeClass: "badge-general",
-            page: "about.html",
-            hash: "contact",
-            keywords: ["location", "directions", "where", "address", "rimpa", "cana hospital", "magadi road", "kajiado", "rongai", "map"],
+            page: "contact.html",
+            hash: "contact-cards",
+            keywords: ["location", "directions", "where", "address", "rimpa", "cana hospital", "magadi road", "kajiado", "rongai", "map", "visit"],
             snippet: "Located in Rimpa, Kajiado County, approximately 10 metres from Cana Hospital off Magadi Road."
+        },
+        {
+            title: "School Office & Working Hours (7:00 AM – 6:00 PM)",
+            category: "Contact",
+            badgeClass: "badge-general",
+            page: "contact.html",
+            hash: "contact-cards",
+            keywords: ["hours", "working hours", "office hours", "open", "opening hours", "closing time", "7am", "6pm", "visiting hours", "monday"],
+            snippet: "School office hours are Monday to Friday from 7:00 AM to 6:00 PM for admissions, queries, and school visits."
+        },
+        {
+            title: "Contact & Online Enquiry Form",
+            category: "Contact",
+            badgeClass: "badge-general",
+            page: "contact.html",
+            hash: "contact-form",
+            keywords: ["form", "message", "enquiry form", "send message", "subject", "admissions enquiry", "feedback"],
+            snippet: "Submit an online enquiry message directly to the RACS administration regarding admissions, fees, transport, or academics."
+        },
+        {
+            title: "Chat with Us on WhatsApp",
+            category: "Contact",
+            badgeClass: "badge-general",
+            page: "contact.html",
+            hash: "whatsapp-cta",
+            keywords: ["whatsapp", "chat", "direct message", "instant message", "wa", "text"],
+            snippet: "Instant WhatsApp messaging with the RACS school administration team at +254 729 622 381."
+        },
+        {
+            title: "Frequently Asked Questions (FAQ)",
+            category: "Contact",
+            badgeClass: "badge-general",
+            page: "contact.html",
+            hash: "faq",
+            keywords: ["faq", "questions", "answers", "how to apply", "arrange visit", "fees summary", "transport summary"],
+            snippet: "Frequently asked questions covering admissions application, tuition fees, transport zones, campus visits, and contact methods."
         },
 
         // --- GALLERY & FACILITIES ---
