@@ -93,8 +93,8 @@
                     </ul>
                 </div>
                 <div class="nav-controls">
-                    <button type="button" id="nav-search-toggle" class="ql-search-toggle" aria-label="Search">
-                        🔍
+                    <button type="button" id="nav-search-toggle" class="ql-search-toggle" aria-label="Search site (Press Ctrl+K)" title="Search (Ctrl+K)">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                     </button>
                     <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
                         <span></span>
@@ -109,9 +109,11 @@
         <div class="nav-search-panel" id="nav-search-panel" aria-hidden="true">
             <div class="nav-search-inner">
                 <div class="nav-search-input">
-                    <input id="nav-search-input" type="search" placeholder="Type any keyword to search" aria-label="Search keywords" autocomplete="off">
+                    <input id="nav-search-input" type="search" placeholder="Search anything: fees, uniforms, menu, transport, contacts..." aria-label="Search keywords" autocomplete="off">
                 </div>
-                <button type="button" class="nav-search-close" id="nav-search-close" aria-label="Close search">✕</button>
+                <button type="button" class="nav-search-close" id="nav-search-close" aria-label="Close search" title="Close (Esc)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
             </div>
             <div class="nav-search-message" id="nav-search-message" aria-live="polite"></div>
         </div>
@@ -314,7 +316,7 @@
                     <div class="activities-grid">
                         <div class="activity-card activity-card-french">
                             <div class="activity-title">
-                                <span>🇫🇷</span> French Lessons
+                                French Lessons
                             </div>
                             <p style="margin-top: 0.35rem; font-size: 0.85rem; color: #713f12;">
                                 Enriching foreign language communication skills for our learners.
@@ -324,7 +326,7 @@
 
                         <div class="activity-card activity-card-swimming">
                             <div class="activity-title">
-                                <span>🏊‍♂️</span> Swimming Lessons
+                                Swimming Lessons
                             </div>
                             <p style="margin-top: 0.35rem; font-size: 0.85rem; color: #14532d;">
                                 Professional swimming coaching building water safety, stamina, and confidence.
@@ -367,7 +369,9 @@
     <!-- Coming Soon Modal -->
     <div class="coming-soon-modal" id="coming-soon-modal" aria-hidden="true">
         <div class="coming-soon-content">
-            <button type="button" class="coming-soon-close" id="coming-soon-close" aria-label="Close modal">✕</button>
+            <button type="button" class="coming-soon-close" id="coming-soon-close" aria-label="Close modal">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
             <h2 class="coming-soon-title">Coming Soon!</h2>
             <p class="coming-soon-text">This section is currently being prepared. Please check back later.</p>
         </div>
