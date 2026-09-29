@@ -288,7 +288,7 @@
             title: "Contact Information & Phone Numbers",
             category: "Contact",
             badgeClass: "badge-general",
-            page: "index.html",
+            page: "about.html",
             hash: "contact",
             keywords: ["contact", "contacts", "phone", "call", "whatsapp", "0729622381", "0724855225", "mobile", "helpline", "inquiry"],
             snippet: "Phone / WhatsApp: 0729 622 381 | 0724 855 225. Call or message us for enquiries regarding admissions, fees, and transport."
@@ -297,7 +297,7 @@
             title: "Email & Official Correspondence",
             category: "Contact",
             badgeClass: "badge-general",
-            page: "index.html",
+            page: "about.html",
             hash: "contact",
             keywords: ["email", "e-mail", "mail", "racs2021@gmail.com", "address", "inbox", "correspondence"],
             snippet: "Send official email enquiries and soft copy admission documents to RACS2021@gmail.com."
@@ -306,7 +306,7 @@
             title: "Campus Location (Near Cana Hospital)",
             category: "Location",
             badgeClass: "badge-general",
-            page: "index.html",
+            page: "about.html",
             hash: "contact",
             keywords: ["location", "directions", "where", "address", "rimpa", "cana hospital", "magadi road", "kajiado", "rongai", "map"],
             snippet: "Located in Rimpa, Kajiado County, approximately 10 metres from Cana Hospital off Magadi Road."
