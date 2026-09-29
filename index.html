@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimpa Adventist Comprehensive School (RACS)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav class="nav">
+                <a href="#top" class="brand">
+                    <div class="brand-mark">
+                        <img src="images/logo.jpeg" alt="Rimpa Adventist Comprehensive School logo">
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-title">
+                            <span class="brand-title-line-1">Rimpa Adventist</span>
+                            <span class="brand-title-line-2">Comprehensive School</span>
+                        </span>
+                        <span class="brand-subtitle">Ready To Shine</span>
+                    </div>
+                </a>
+
+                <div class="nav-links">
+                    <ul class="ql-main-links">
+                        <li class="ql-item">
+                            <a href="index.html#top" class="ql-link">Home</a>
+                        </li>
+                        <li class="ql-item">
+                            <a href="admissions.html" class="ql-link has-dropdown">Admissions</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Admissions menu">
+                                <a href="admissions.html#admission-process">
+                                    Admission process
+                                </a>
+                                <a href="admissions.html#online-application">
+                                    Online application
+                                </a>
+                                <a href="admissions.html#admission-requirements">
+                                    Admission & graduation requirements
+                                </a>
+                                <a href="admissions.html#fee-structure">
+                                    Fee structure
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="#" class="ql-link has-dropdown coming-soon-trigger">Academics</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Academics menu">
+                                <a href="#" class="coming-soon-trigger">Calendar</a>
+                                <a href="#" class="coming-soon-trigger">Timetable</a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="about.html" class="ql-link has-dropdown">About</a>
+                            <div class="ql-dropdown" role="menu" aria-label="About menu">
+                                <a href="about.html#vision">
+                                    Vision
+                                </a>
+                                <a href="about.html#mission">
+                                    Mission
+                                </a>
+                                <a href="about.html#gallery">
+                                    Gallery
+                                </a>
+                                <a href="index.html#contact">
+                                    Contact us
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item dropdown-right">
+                            <a href="student-life.html" class="ql-link has-dropdown">Student Life</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Student life menu">
+                                <a href="student-life.html#school-menu">
+                                    School menu
+                                </a>
+                                <a href="student-life.html#transport-fees">
+                                    Transport fees
+                                </a>
+                                <a href="student-life.html#uniforms">
+                                    School uniform guide
+                                </a>
+                                <a href="student-life.html#activities">
+                                    Swimming &amp; activities
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-controls">
+                    <button type="button" id="nav-search-toggle" class="ql-search-toggle" aria-label="Search">
+                        🔍
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="nav-overlay" id="nav-overlay"></div>
+
+        <div class="nav-search-panel" id="nav-search-panel" aria-hidden="true">
+            <div class="nav-search-inner">
+                <div class="nav-search-input">
+                    <input id="nav-search-input" type="search" placeholder="Type any keyword to search" aria-label="Search keywords" autocomplete="off">
+                </div>
+                <button type="button" class="nav-search-close" id="nav-search-close" aria-label="Close search">✕</button>
+            </div>
+            <div class="nav-search-message" id="nav-search-message" aria-live="polite"></div>
+        </div>
+
+        <main id="top">
+            <!-- Home Hero -->
+            <section class="home-hero" aria-label="Rimpa Adventist Comprehensive School hero">
+                <div class="home-hero-bg" aria-hidden="true">
+                    <img src="images/gallery/People/Students.jpeg" alt="">
+                </div>
+                <div class="home-hero-overlay" aria-hidden="true"></div>
+                <div class="home-hero-content">
+                    <h1 class="home-hero-title home-hero-fade" style="--delay: 0.05s;">Welcome to RACS</h1>
+                    <p class="home-hero-subtitle home-hero-fade" style="--delay: 0.15s;">
+                        Nurturing hearts and minds at Rimpa Adventist Comprehensive School.
+                    </p>
+                    <p class="home-hero-body home-hero-fade" style="--delay: 0.28s;">
+                        RACS is a Christ-centered community committed to academic excellence, strong character, and service.
+                        We partner with families to prepare learners for today's world and eternity.
+                    </p>
+
+                    <div class="home-hero-badges home-hero-fade" style="--delay: 0.42s;">
+                        <span class="home-hero-pill">📍 Kajiado County • Rimpa</span>
+                        <span class="home-hero-pill">🎓 Play Group, Lower Primary &amp; Upper Primary levels</span>
+                    </div>
+
+                    <div class="home-hero-actions home-hero-fade" style="--delay: 0.56s;">
+                        <a
+                            href="#about-racs"
+                            class="home-hero-btn home-hero-btn-primary"
+                            onclick="document.getElementById('about-racs').scrollIntoView({behavior: 'smooth'}); return false;"
+                        >Explore RACS</a>
+                        <a href="student-life.html" class="home-hero-btn home-hero-btn-ghost">See Student Life</a>
+                    </div>
+                </div>
+
+                <!-- Organic wave divider connecting hero to page content -->
+                <div class="home-hero-divider" aria-hidden="true">
+                    <svg viewBox="0 0 1440 56" preserveAspectRatio="none">
+                        <path d="M0,0 C360,56 1080,56 1440,0 L1440,56 L0,56 Z"></path>
+                    </svg>
+                </div>
+
+                <!-- Scroll cue to lead user down to the content -->
+                <a href="#about-racs" class="home-hero-scroll home-hero-fade" style="--delay: 0.7s;" aria-label="Scroll down to explore">
+                    <span>Scroll</span>
+                    <svg class="home-hero-scroll-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </a>
+            </section>
+
+            <section id="about-racs" class="section-shell" aria-labelledby="about-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="about-heading" class="section-title">About RACS</h2>
+                        <p class="section-subtitle">
+                            Who we are, what we believe, and why families choose Rimpa Adventist Comprehensive School.
+                        </p>
+                    </div>
+                </div>
+                <div style="font-size: 0.9rem; color: var(--text-muted); max-width: 48rem;">
+                    <p>
+                        Rimpa Adventist Comprehensive School (RACS) is a Christian-based school that fosters a
+                        balanced development of the whole child: spiritual, physical, intellectual,
+                        and social-emotional. A process that spans a lifetime. 
+                    </p>
+
+                    <h3 style="margin-top: 1.2rem; font-size: 1rem; color: var(--green-dark);">
+                        Why choose RACS
+                    </h3>
+                    <ul style="margin-top: 0.4rem; padding-left: 1.1rem;">
+                        <li>Commitment to academic excellence</li>
+                        <li>Strong Christian values and character formation</li>
+                        <li>Affordable, value-driven education</li>
+                        <li>Talent nurturing through co-curricular activities</li>
+                    </ul>
+
+                    <h3 style="margin-top: 1.2rem; font-size: 1rem; color: var(--green-dark);">
+                        Vision
+                    </h3>
+                    <p>
+                        To be an institution of excellence that empowers learners of all abilities through holistic, 
+                        faith based education that fosters Christ-centered, lifelong learners who serve with excellence, 
+                        integrity, and compassion. 
+                    </p>
+
+                    <h3 style="margin-top: 1.2rem; font-size: 1rem; color: var(--green-dark);">
+                        Mission
+                    </h3>
+                    <p>
+                        To provide a Christ-centered, inclusive, and holistic education 
+                        that nurtures the spiritual, intellectual, physical and social development of every learner.
+                        Through dedicated service, academic excellence, and faith in God, to fulfil their God-given purpose and positively impact the world.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Academics -->
+            <section id="academics" class="section-shell" aria-labelledby="academics-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="academics-heading" class="section-title">Academics</h2>
+                        <p class="section-subtitle">
+                            Learning that blends strong academics with Christian values and life skills.
+                        </p>
+                    </div>
+                </div>
+                <div style="font-size: 0.9rem; color: var(--text-muted); max-width: 48rem;">
+                    <p>
+                        Our academic programme follows the national curriculum, enriched with Christian values and
+                        life skills. Teachers provide close mentorship, continuous assessment, and support to ensure
+                        each learner reaches their God-given potential.
+                    </p>
+                    <p id="calendar">
+                        The school calendar outlines opening and closing dates, mid-term breaks, examination weeks,
+                        and special events such as sports days and cultural activities. Parents receive printed
+                        calendars and updates; we will also publish key dates on this page.
+                    </p>
+                    <p id="timetable">
+                        Daily timetables balance core subjects, creative activities, devotions, and co-curricular
+                        sessions. Sample timetables for different classes will be uploaded here so that families can
+                        easily follow their children’s learning routines.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact / footer anchor -->
+            <section id="contact" class="section-shell" aria-labelledby="contact-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="contact-heading" class="section-title">Contact & location</h2>
+                        <p class="section-subtitle">
+                            A full contact page form will be available soon.
+                        </p>
+                    </div>
+                </div>
+                <div style="font-size: 0.9rem; color: var(--text-muted); max-width: 48rem;">
+                    <p>
+                        For enquiries about admissions, transport, fees, or general information, please reach out
+                        to us using the contacts below.
+                    </p>
+                    <p style="margin-top: 0.6rem;">
+                        <strong>Phone / WhatsApp:</strong> 0729 622 381 &nbsp;|&nbsp; 0724 855 225
+                    </p>
+                    <p>
+                        <strong>Email:</strong> RACS2021@gmail.com
+                    </p>
+                    <p>
+                        <strong>Location:</strong> Rimpa Adventist Comprehensive School, approximately 10 metres
+                        from Cana Hospital.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p><strong>Rimpa Adventist Comprehensive School (RACS)</strong></p>
+                    <p>Learning, character, and faith – serving our community.</p>
+                </div>
+                <div class="footer-right">
+                    <p>© <span id="year"></span> RACS. All rights reserved.</p>
+                    <p>Website managed by the RACS team.</p>
+                </div>
+            </div>
+        </footer>
+        <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+    </div>
+
+    
+    <!-- Coming Soon Modal -->
+    <div class="coming-soon-modal" id="coming-soon-modal" aria-hidden="true">
+        <div class="coming-soon-content">
+            <button type="button" class="coming-soon-close" id="coming-soon-close" aria-label="Close modal">✕</button>
+            <h2 class="coming-soon-title">Coming Soon!</h2>
+            <p class="coming-soon-text">This section is currently being prepared. Please check back later.</p>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+    <script>
+        // Simple script to always show the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

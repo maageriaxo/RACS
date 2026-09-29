@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life & Events | Rimpa Adventist Comprehensive School (RACS)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav class="nav">
+                <a href="index.html#top" class="brand">
+                    <div class="brand-mark">
+                        <img src="images/logo.jpeg" alt="Rimpa Adventist Comprehensive School logo">
+                    </div>
+                    <div class="brand-text">
+                        <span class="brand-title">
+                            <span class="brand-title-line-1">Rimpa Adventist</span>
+                            <span class="brand-title-line-2">Comprehensive School</span>
+                        </span>
+                        <span class="brand-subtitle">Ready To Shine</span>
+                    </div>
+                </a>
+
+                <div class="nav-links">
+                    <ul class="ql-main-links">
+                        <li class="ql-item">
+                            <a href="index.html#top" class="ql-link">Home</a>
+                        </li>
+                        <li class="ql-item">
+                            <a href="admissions.html" class="ql-link has-dropdown">Admissions</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Admissions menu">
+                                <a href="admissions.html#admission-process">
+                                    Admission process
+                                </a>
+                                <a href="admissions.html#online-application">
+                                    Online application
+                                </a>
+                                <a href="admissions.html#admission-requirements">
+                                    Admission & graduation requirements
+                                </a>
+                                <a href="admissions.html#fee-structure">
+                                    Fee structure
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="#" class="ql-link has-dropdown coming-soon-trigger">Academics</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Academics menu">
+                                <a href="#" class="coming-soon-trigger">Calendar</a>
+                                <a href="#" class="coming-soon-trigger">Timetable</a>
+                            </div>
+                        </li>
+                        <li class="ql-item">
+                            <a href="about.html" class="ql-link has-dropdown">About</a>
+                            <div class="ql-dropdown" role="menu" aria-label="About menu">
+                                <a href="about.html#vision">
+                                    Vision
+                                </a>
+                                <a href="about.html#mission">
+                                    Mission
+                                </a>
+                                <a href="about.html#gallery">
+                                    Gallery
+                                </a>
+                                <a href="index.html#contact">
+                                    Contact us
+                                </a>
+                            </div>
+                        </li>
+                        <li class="ql-item dropdown-right">
+                            <a href="student-life.html" class="ql-link has-dropdown">Student Life</a>
+                            <div class="ql-dropdown" role="menu" aria-label="Student life menu">
+                                <a href="student-life.html#school-menu">
+                                    School menu
+                                </a>
+                                <a href="student-life.html#transport-fees">
+                                    Transport fees
+                                </a>
+                                <a href="student-life.html#uniforms">
+                                    School uniform guide
+                                </a>
+                                <a href="student-life.html#activities">
+                                    Swimming &amp; activities
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-controls">
+                    <button type="button" id="nav-search-toggle" class="ql-search-toggle" aria-label="Search">
+                        🔍
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="nav-overlay" id="nav-overlay"></div>
+
+        <div class="nav-search-panel" id="nav-search-panel" aria-hidden="true">
+            <div class="nav-search-inner">
+                <div class="nav-search-input">
+                    <input id="nav-search-input" type="search" placeholder="Type any keyword to search" aria-label="Search keywords" autocomplete="off">
+                </div>
+                <button type="button" class="nav-search-close" id="nav-search-close" aria-label="Close search">✕</button>
+            </div>
+            <div class="nav-search-message" id="nav-search-message" aria-live="polite"></div>
+        </div>
+
+        <main id="top">
+            <section class="section-shell" aria-labelledby="student-life-heading">
+                <div class="section-header">
+                    <div>
+                        <h1 id="student-life-heading" class="section-title">Student life &amp; events</h1>
+                        <p class="section-subtitle">
+                            Daily experiences, meals, transport, uniforms, and activities that support learning at RACS.
+                        </p>
+                    </div>
+                </div>
+                <div style="font-size: 0.9rem; color: var(--text-muted); max-width: 52rem;">
+                    <p>
+                        Beyond the classroom, learners at RACS enjoy a warm community through shared meals, safe
+                        transport, well-presented uniforms, and a variety of co-curricular activities and events.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-shell" aria-labelledby="school-menu-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="school-menu-heading" class="section-title">School menu</h2>
+                        <p class="section-subtitle">
+                            A sample weekly meal plan that helps our learners stay energised.
+                        </p>
+                    </div>
+                </div>
+                <div id="school-menu" style="font-size: 0.9rem; color: var(--text-muted); max-width: 52rem;">
+                    <div class="data-table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Break</th>
+                                    <th>Lunch</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>Porridge</td>
+                                    <td>Ugali &amp; Vegetables</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>White Chocolate &amp; Mandazi</td>
+                                    <td>Rice &amp; Beans</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>Porridge</td>
+                                    <td>Ugali &amp; Vegetables</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>White Chocolate &amp; Mandazi</td>
+                                    <td>Rice &amp; Beans</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>White Chocolate &amp; Chapati</td>
+                                    <td>Chapati &amp; Beans</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>
+                        The exact menu may change from time to time, but we always aim to provide balanced, nourishing meals
+                        that support healthy growth, energy, and learning.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-shell" aria-labelledby="transport-fees-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="transport-fees-heading" class="section-title">Transport fees</h2>
+                        <p class="section-subtitle">
+                            Official termly transport charges across all 7 operational zones.
+                        </p>
+                    </div>
+                </div>
+                <div id="transport-fees" style="font-size: 0.9rem; color: var(--text-muted); max-width: 52rem;">
+                    <div class="data-table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Zone</th>
+                                    <th>Area covered</th>
+                                    <th>Charges (Ksh)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Zone 1</strong></td>
+                                    <td>Mashuria, Rimpa, Nalepo</td>
+                                    <td class="cell-gold">4,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 2</strong></td>
+                                    <td>Kahuho Stage, Kamura, Kanisani, Destiny</td>
+                                    <td class="cell-gold">5,500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 3</strong></td>
+                                    <td>Kwa Maji, Kahuho Ndani, Triangle, Red Soil</td>
+                                    <td class="cell-gold">6,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 4</strong></td>
+                                    <td>Gichagi Ndani, Kanisani Ndani, Ntamat, Red Soil Ndani, Acacia, Oloosurutia</td>
+                                    <td class="cell-gold">6,800</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 5</strong></td>
+                                    <td>Kwa Maji Ndani, QuickMart, Kiserian, Kiserian Secondary, Kimani Road</td>
+                                    <td class="cell-gold">7,200</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 6</strong></td>
+                                    <td>Kandisi Center, Chap Chap</td>
+                                    <td class="cell-gold">7,500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zone 7</strong></td>
+                                    <td>Kandisi Ndani, Millenia, St. Patrick</td>
+                                    <td class="cell-gold">8,500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>
+                        Safe, reliable school transport is available across Rimpa, Kiserian, and surrounding areas. Exact pick-up points and routes are confirmed each term with the transport office.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-shell" aria-labelledby="uniforms-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="uniforms-heading" class="section-title">School uniform guide</h2>
+                        <p class="section-subtitle">
+                            Official items that make up the RACS uniform and current prices.
+                        </p>
+                    </div>
+                </div>
+                <div id="uniforms" style="font-size: 0.9rem; color: var(--text-muted); max-width: 52rem;">
+                    <div class="data-table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Price (Ksh)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sweater, Trouser, Shirt/Dress, Socks</td>
+                                    <td><strong>2,500</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Jumper (Fleece Jacket)</td>
+                                    <td><strong>2,300</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Track Suit</td>
+                                    <td><strong>1,800</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>T-shirt</td>
+                                    <td><strong>500</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>
+                        Uniforms are available directly through the school to ensure consistency in colour, durability, and presentation. Parents can purchase items during designated uniform days or by arrangement with the office.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-shell" aria-labelledby="activities-heading">
+                <div class="section-header">
+                    <div>
+                        <h2 id="activities-heading" class="section-title">Extra-curricular activities &amp; life</h2>
+                        <p class="section-subtitle">
+                            Nurturing talents, sports, languages, and holistic development at RACS.
+                        </p>
+                    </div>
+                </div>
+                <div id="activities" style="font-size: 0.9rem; color: var(--text-muted); max-width: 52rem;">
+                    <p>
+                        Beyond the classroom, RACS learners enjoy a vibrant array of co-curricular and enrichment activities designed to nurture character, physical fitness, and global skills.
+                    </p>
+
+                    <div class="activities-grid">
+                        <div class="activity-card activity-card-french">
+                            <div class="activity-title">
+                                <span>🇫🇷</span> French Lessons
+                            </div>
+                            <p style="margin-top: 0.35rem; font-size: 0.85rem; color: #713f12;">
+                                Enriching foreign language communication skills for our learners.
+                            </p>
+                            <span class="activity-fee-tag activity-fee-tag-gold">Ksh 1,000 Per Month</span>
+                        </div>
+
+                        <div class="activity-card activity-card-swimming">
+                            <div class="activity-title">
+                                <span>🏊‍♂️</span> Swimming Lessons
+                            </div>
+                            <p style="margin-top: 0.35rem; font-size: 0.85rem; color: #14532d;">
+                                Professional swimming coaching building water safety, stamina, and confidence.
+                            </p>
+                            <span class="activity-fee-tag activity-fee-tag-green">Ksh 2,000 Per Year</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                        <div style="flex: 1 1 280px; min-width: 260px;">
+                            <h3 style="font-size: 1rem; color: var(--green-dark); margin-bottom: 0.4rem;">Playground &amp; Outdoor Recreation</h3>
+                            <p>
+                                Active play and outdoor physical recreation are essential for healthy childhood growth. Our spacious, equipped playground gives learners a happy space to play, socialize, and build lasting friendships.
+                            </p>
+                        </div>
+                        <div style="flex: 1 1 240px; max-width: 320px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                            <img src="images/gallery/Life at School/Playground-1.jpeg" alt="RACS learners having fun on the school playground swings and slide" style="width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p><strong>Rimpa Adventist Comprehensive School (RACS)</strong></p>
+                    <p>Learning, character, and faith – serving our community.</p>
+                </div>
+                <div class="footer-right">
+                    <p>© <span id="year"></span> RACS. All rights reserved.</p>
+                    <p>Website managed by the RACS team.</p>
+                </div>
+            </div>
+        </footer>
+        <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+    </div>
+
+    
+    <!-- Coming Soon Modal -->
+    <div class="coming-soon-modal" id="coming-soon-modal" aria-hidden="true">
+        <div class="coming-soon-content">
+            <button type="button" class="coming-soon-close" id="coming-soon-close" aria-label="Close modal">✕</button>
+            <h2 class="coming-soon-title">Coming Soon!</h2>
+            <p class="coming-soon-text">This section is currently being prepared. Please check back later.</p>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
