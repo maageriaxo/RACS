@@ -206,167 +206,277 @@
                     </div>
                 </div>
                 <div class="gallery-content">
-                    <div class="gallery-section" data-gallery-section="facilities">
-                        <h3 id="gallery-facilities" class="gallery-category-title">Facilities</h3>
-                        <div class="gallery-grid">
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Admin%20Block.jpeg" alt="Admin Block at RACS" loading="lazy">
-                                <span class="gallery-label">Admin Block</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Headteachers%20Office.jpeg" alt="Headteachers office at RACS" loading="lazy">
-                                <span class="gallery-label">Headteachers office</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/PP1.jpeg" alt="PP1 at RACS" loading="lazy">
-                                <span class="gallery-label">PP1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/PP1-2.jpeg" alt="PP1-2 at RACS" loading="lazy">
-                                <span class="gallery-label">PP1-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Kitchen.jpeg" alt="Kitchen at RACS" loading="lazy">
-                                <span class="gallery-label">Kitchen</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Dining%20Hall.jpeg" alt="Dining Hall at RACS" loading="lazy">
-                                <span class="gallery-label">Dining Hall</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Class%20Interior-1.jpeg" alt="Class interior 1 at RACS" loading="lazy">
-                                <span class="gallery-label">Class Interior-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Class%20Interior-2.jpeg" alt="Class interior 2 at RACS" loading="lazy">
-                                <span class="gallery-label">Class Interior-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Class%20Interior-3.jpeg" alt="Class interior 3 at RACS" loading="lazy">
-                                <span class="gallery-label">Class Interior-3</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Facilities/Class%20Interior-4.jpeg" alt="Class interior 4 at RACS" loading="lazy">
-                                <span class="gallery-label">Class Interior-4</span>
+                    <!-- Invisible anchor targets for backward-compatible deep links -->
+                    <span id="gallery-facilities" style="display: block; position: relative; top: -120px; visibility: hidden;"></span>
+                    <span id="gallery-people" style="display: block; position: relative; top: -120px; visibility: hidden;"></span>
+                    <span id="gallery-life-at-school" style="display: block; position: relative; top: -120px; visibility: hidden;"></span>
+
+                    <!-- Category Filter Tabs -->
+                    <div class="gallery-filters" role="tablist" aria-label="Gallery category filters">
+                        <button type="button" class="gallery-filter-btn is-active" data-filter="all" role="tab" aria-selected="true">
+                            ✨ All Photos <span class="gallery-filter-count">34</span>
+                        </button>
+                        <button type="button" class="gallery-filter-btn" data-filter="facilities" role="tab" aria-selected="false">
+                            🏛️ Facilities <span class="gallery-filter-count">10</span>
+                        </button>
+                        <button type="button" class="gallery-filter-btn" data-filter="people" role="tab" aria-selected="false">
+                            👥 People &amp; Staff <span class="gallery-filter-count">7</span>
+                        </button>
+                        <button type="button" class="gallery-filter-btn" data-filter="life" role="tab" aria-selected="false">
+                            🎒 Life at School <span class="gallery-filter-count">17</span>
+                        </button>
+                    </div>
+
+                    <!-- Main Responsive Photo Grid -->
+                    <div class="gallery-main-grid" id="gallery-main-grid">
+                        <!-- Facilities (10) -->
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Admin%20Block.jpeg" alt="Main Administration &amp; Reception Block" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Main Administration &amp; Reception</span>
                             </div>
                         </div>
-                        <div class="gallery-section-actions">
-                            <button type="button" class="btn-secondary gallery-load-more" data-gallery-load-more="facilities">Load More</button>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Headteachers%20Office.jpeg" alt="Headteacher's Office" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Headteacher's Office</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/PP1.jpeg" alt="Pre-Primary Early Learning Classroom (PP1)" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Pre-Primary Classroom (PP1)</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/PP1-2.jpeg" alt="Early Childhood Activity Learning Center" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Early Childhood Activity Center</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Kitchen.jpeg" alt="School Kitchen &amp; Meal Preparation Area" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">School Kitchen &amp; Meal Area</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Dining%20Hall.jpeg" alt="Spacious Dining Hall &amp; Assembly Space" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Dining Hall &amp; Assembly Hall</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Class%20Interior-1.jpeg" alt="Spacious Primary Classroom" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Spacious Primary Classroom</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Class%20Interior-2.jpeg" alt="Bright &amp; Well-Ventilated Classroom" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Modern Learning Environment</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Class%20Interior-3.jpeg" alt="Organized Classroom Learning Desks" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Organized Study Desks</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="facilities">
+                            <img src="images/gallery/Facilities/Class%20Interior-4.jpeg" alt="Interactive Study Environment" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Facilities</span>
+                                <span class="gallery-label-text">Interactive Classroom Layout</span>
+                            </div>
+                        </div>
+
+                        <!-- People & Staff (7) -->
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/Students.jpeg" alt="Proud RACS Learners in Uniform" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">Proud RACS Learners Ready to Shine</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/Head%20Teacher-1.jpeg" alt="Head Teacher Mentoring Learners" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">Head Teacher Learner Mentorship</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/Head%20Teacher-2.jpeg" alt="School Leadership &amp; Administration" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">School Leadership &amp; Administration</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/Teaching%20Staff.jpeg" alt="Dedicated Teaching Faculty" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">Dedicated Teaching Faculty</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/Teaching%20and%20Support%20Staff.jpeg" alt="Complete Teaching &amp; Support Staff Team" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">Complete School Teaching &amp; Support Staff</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/RACS-1.jpeg" alt="School Community Gathering" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">School Community Gathering</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="people">
+                            <img src="images/gallery/People/RACS-2.jpeg" alt="Staff Collaboration &amp; Teamwork" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">People &amp; Staff</span>
+                                <span class="gallery-label-text">Staff Collaboration &amp; Teamwork</span>
+                            </div>
+                        </div>
+
+                        <!-- Life at School (17) -->
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Learning-1.jpeg" alt="Hands-on Classroom Learning" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Hands-on Classroom Learning</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Learning-2.jpeg" alt="Student Group Discussion &amp; Collaboration" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Student Group Collaboration</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Learning-3.jpeg" alt="Attentive Reading and Study" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Attentive Studies &amp; Reading</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Learning-4.jpeg" alt="Creative Project Work in Session" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Creative Project Activities</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-1.jpeg" alt="Teacher-Learner Individual Mentorship" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Teacher-Learner Mentorship</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-2.jpeg" alt="Engaged Individual Guidance" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Engaged Individual Guidance</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-3.jpeg" alt="Active Learning in Session" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Active Learning in Session</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-4.jpeg" alt="Interactive Classroom Discussion" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Interactive Classroom Guidance</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-5.jpeg" alt="Personalized Student Support" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Personalized Student Support</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-6.jpeg" alt="Teacher-Student Question Time" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Teacher &amp; Learner Q&amp;A Session</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Playground-1.jpeg" alt="Outdoor Playground &amp; Swings" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Outdoor Playground &amp; Swings</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Playground-2.jpeg" alt="Joyful Play on the Slide" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Joyful Play on the Slide</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Playground-3.jpeg" alt="Outdoor Recreation &amp; Games" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Outdoor Recreation &amp; Games</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Playground-4.jpeg" alt="Friendship &amp; Social Play" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Friendship &amp; Social Play</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Graduation.jpeg" alt="Annual Pre-School &amp; Class Graduation" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Annual Class Graduation Celebration</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Trip.jpeg" alt="Educational Field Excursion &amp; Outing" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Educational Field Excursion</span>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-category="life">
+                            <img src="images/gallery/Life%20at%20School/Z.jpeg" alt="Campus Life &amp; Outdoor Activities" loading="lazy" decoding="async">
+                            <div class="gallery-label">
+                                <span class="gallery-badge">Life at School</span>
+                                <span class="gallery-label-text">Campus Life &amp; Outdoor Activities</span>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="gallery-section" data-gallery-section="people">
-                        <h3 id="gallery-people" class="gallery-category-title">People</h3>
-                        <div class="gallery-grid">
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/Students.jpeg" alt="Students at RACS" loading="lazy">
-                                <span class="gallery-label">Students</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/Head%20Teacher-1.jpeg" alt="Headteacher-1 at RACS" loading="lazy">
-                                <span class="gallery-label">Headteacher-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/Head%20Teacher-2.jpeg" alt="Headteacher-2 at RACS" loading="lazy">
-                                <span class="gallery-label">Headteacher-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/Teaching%20Staff.jpeg" alt="Teaching staff at RACS" loading="lazy">
-                                <span class="gallery-label">Teaching Staff</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/Teaching%20and%20Support%20Staff.jpeg" alt="Teaching and support staff at RACS" loading="lazy">
-                                <span class="gallery-label">Teaching and Support Staff</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/RACS-1.jpeg" alt="RACS-1 at RACS" loading="lazy">
-                                <span class="gallery-label">RACS-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/People/RACS-2.jpeg" alt="RACS-2 at RACS" loading="lazy">
-                                <span class="gallery-label">RACS-2</span>
-                            </div>
-                        </div>
-                        <div class="gallery-section-actions">
-                            <button type="button" class="btn-secondary gallery-load-more" data-gallery-load-more="people">Load More</button>
-                        </div>
-                    </div>
-
-                    <div class="gallery-section" data-gallery-section="life">
-                        <h3 id="gallery-life-at-school" class="gallery-category-title">Life at school</h3>
-                        <div class="gallery-grid">
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Learning-1.jpeg" alt="Learning-1 at RACS" loading="lazy">
-                                <span class="gallery-label">Learning-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Learning-2.jpeg" alt="Learning-2 at RACS" loading="lazy">
-                                <span class="gallery-label">Learning-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Learning-3.jpeg" alt="Learning-3 at RACS" loading="lazy">
-                                <span class="gallery-label">Learning-3</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Learning-4.jpeg" alt="Learning-4 at RACS" loading="lazy">
-                                <span class="gallery-label">Learning-4</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-1.jpeg" alt="S&T Interaction-1 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-2.jpeg" alt="S&T Interaction-2 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-3.jpeg" alt="S&T Interaction-3 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-3</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-4.jpeg" alt="S&T Interaction-4 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-4</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-5.jpeg" alt="S&T Interaction-5 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-5</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/S%26T%20Interaction-6.jpeg" alt="S&T Interaction-6 at RACS" loading="lazy">
-                                <span class="gallery-label">S&amp;T Interaction-6</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Playground-1.jpeg" alt="Playground-1 at RACS" loading="lazy">
-                                <span class="gallery-label">Playground-1</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Playground-2.jpeg" alt="Playground-2 at RACS" loading="lazy">
-                                <span class="gallery-label">Playground-2</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Playground-3.jpeg" alt="Playground-3 at RACS" loading="lazy">
-                                <span class="gallery-label">Playground-3</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Playground-4.jpeg" alt="Playground-4 at RACS" loading="lazy">
-                                <span class="gallery-label">Playground-4</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Graduation.jpeg" alt="Graduation at RACS" loading="lazy">
-                                <span class="gallery-label">Graduation</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Trip.jpeg" alt="Trip at RACS" loading="lazy">
-                                <span class="gallery-label">Trip</span>
-                            </div>
-                            <div class="gallery-item">
-                                <img src="images/gallery/Life%20at%20School/Z.jpeg" alt="Z at RACS" loading="lazy">
-                                <span class="gallery-label">Z</span>
-                            </div>
-                        </div>
-                        <div class="gallery-section-actions">
-                            <button type="button" class="btn-secondary gallery-load-more" data-gallery-load-more="life">Load More</button>
-                        </div>
+                    <!-- Load More Action -->
+                    <div class="gallery-section-actions">
+                        <button type="button" class="gallery-load-more" id="gallery-load-more">Load More Photos</button>
                     </div>
                 </div>
             </section>
@@ -376,10 +486,11 @@
         <div class="gallery-lightbox" id="gallery-lightbox" aria-hidden="true">
             <div class="gallery-lightbox-inner" role="dialog" aria-modal="true" aria-label="Image viewer">
                 <div class="lightbox-counter" id="lightbox-counter">1 / 1</div>
-                <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+                <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close viewer">✕</button>
                 <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">‹</button>
                 <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">›</button>
                 <img id="lightbox-image" src="" alt="">
+                <div class="lightbox-caption" id="lightbox-caption"></div>
             </div>
         </div>
 
@@ -414,59 +525,101 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const sections = document.querySelectorAll('.gallery-section[data-gallery-section]');
+            const filterButtons = document.querySelectorAll('.gallery-filter-btn');
+            const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+            const loadMoreBtn = document.getElementById('gallery-load-more');
+
             const lightbox = document.getElementById('gallery-lightbox');
             const lightboxImg = document.getElementById('lightbox-image');
             const lightboxCounter = document.getElementById('lightbox-counter');
+            const lightboxCaption = document.getElementById('lightbox-caption');
             const btnClose = document.getElementById('lightbox-close');
             const btnPrev = document.getElementById('lightbox-prev');
             const btnNext = document.getElementById('lightbox-next');
 
-            let lightboxState = {
-                open: false,
-                sectionKey: null,
-                index: 0
-            };
+            let currentFilter = 'all';
+            let visibleLimit = 12;
+            const BATCH_SIZE = 8;
+            let currentFilteredItems = [];
+            let activeLightboxIndex = 0;
 
-            function updateGalleryGridAlignment(sectionEl) {
-                const gridEl = sectionEl.querySelector('.gallery-grid');
-                if (!gridEl) return;
-                const items = Array.from(sectionEl.querySelectorAll('.gallery-item'));
-                const visibleItems = items.filter(function (it) {
-                    return !it.classList.contains('gallery-item--hidden');
+            function applyFilter(filter, resetLimit) {
+                currentFilter = filter;
+                if (resetLimit) visibleLimit = 12;
+
+                // Update active tab buttons
+                filterButtons.forEach(function (btn) {
+                    const isActive = btn.dataset.filter === filter;
+                    btn.classList.toggle('is-active', isActive);
+                    btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
                 });
 
-                // If only 1 thumbnail is visible, switch to 1-column so it centers perfectly.
-                if (visibleItems.length === 1) {
-                    gridEl.classList.add('gallery-grid--single');
-                } else {
-                    gridEl.classList.remove('gallery-grid--single');
+                // Filter items matching category
+                currentFilteredItems = galleryItems.filter(function (item) {
+                    return filter === 'all' || item.dataset.category === filter;
+                });
+
+                // Reset visibility
+                galleryItems.forEach(function (item) {
+                    item.classList.add('gallery-item--hidden');
+                    item.classList.remove('gallery-item--revealed');
+                });
+
+                currentFilteredItems.forEach(function (item, idx) {
+                    if (idx < visibleLimit) {
+                        item.classList.remove('gallery-item--hidden');
+                        item.classList.add('gallery-item--revealed');
+                    }
+                });
+
+                // Show/hide Load More button
+                if (loadMoreBtn) {
+                    loadMoreBtn.style.display = visibleLimit < currentFilteredItems.length ? 'inline-flex' : 'none';
                 }
             }
 
-            function getSectionItems(sectionKey) {
-                const sectionEl = document.querySelector('.gallery-section[data-gallery-section="' + sectionKey + '"]');
-                if (!sectionEl) return [];
-                return Array.from(sectionEl.querySelectorAll('.gallery-item'));
+            // Category filter click events
+            filterButtons.forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    applyFilter(this.dataset.filter, true);
+                });
+            });
+
+            // Load more button event
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', function () {
+                    visibleLimit += BATCH_SIZE;
+                    applyFilter(currentFilter, false);
+                });
             }
 
-            function setLightboxContent(sectionKey, index) {
-                const items = getSectionItems(sectionKey);
-                if (!items.length) return;
-                const item = items[index];
-                const imgEl = item.querySelector('img');
-
-                lightboxImg.src = imgEl.src;
-                lightboxImg.alt = imgEl.alt || '';
-                lightboxCounter.textContent = (index + 1) + ' / ' + items.length;
+            // Lightbox slideshow helper functions
+            function getCurrentlyVisibleItems() {
+                return currentFilteredItems.filter(function (item) {
+                    return !item.classList.contains('gallery-item--hidden');
+                });
             }
 
-            function openLightbox(sectionKey, index) {
-                lightboxState.open = true;
-                lightboxState.sectionKey = sectionKey;
-                lightboxState.index = index;
+            function setLightboxContent(index) {
+                const visibleItems = getCurrentlyVisibleItems();
+                if (!visibleItems.length) return;
 
-                setLightboxContent(sectionKey, index);
+                const item = visibleItems[index];
+                const img = item.querySelector('img');
+                const labelTextEl = item.querySelector('.gallery-label-text');
+
+                lightboxImg.src = img.src;
+                lightboxImg.alt = img.alt || '';
+                lightboxCounter.textContent = (index + 1) + ' / ' + visibleItems.length;
+
+                if (lightboxCaption && labelTextEl) {
+                    lightboxCaption.textContent = labelTextEl.textContent;
+                }
+            }
+
+            function openLightbox(index) {
+                activeLightboxIndex = index;
+                setLightboxContent(index);
                 lightbox.classList.add('is-open');
                 lightbox.setAttribute('aria-hidden', 'false');
                 document.body.style.overflow = 'hidden';
@@ -474,10 +627,6 @@
             }
 
             function closeLightbox() {
-                lightboxState.open = false;
-                lightboxState.sectionKey = null;
-                lightboxState.index = 0;
-
                 lightbox.classList.remove('is-open');
                 lightbox.setAttribute('aria-hidden', 'true');
                 lightboxImg.src = '';
@@ -485,29 +634,54 @@
             }
 
             function navigateLightbox(delta) {
-                const items = getSectionItems(lightboxState.sectionKey);
-                if (!items.length) return;
-
-                const nextIndex = (lightboxState.index + delta + items.length) % items.length;
-                lightboxState.index = nextIndex;
-                setLightboxContent(lightboxState.sectionKey, nextIndex);
+                const visibleItems = getCurrentlyVisibleItems();
+                if (!visibleItems.length) return;
+                activeLightboxIndex = (activeLightboxIndex + delta + visibleItems.length) % visibleItems.length;
+                setLightboxContent(activeLightboxIndex);
             }
 
+            // Keyboard and click setup for gallery items
+            galleryItems.forEach(function (item) {
+                item.tabIndex = 0;
+                item.setAttribute('role', 'button');
+                const labelText = item.querySelector('.gallery-label-text');
+                item.setAttribute('aria-label', labelText ? ('View ' + labelText.textContent) : 'View photo');
+
+                item.addEventListener('click', function () {
+                    const visibleItems = getCurrentlyVisibleItems();
+                    const idx = visibleItems.indexOf(item);
+                    if (idx !== -1) openLightbox(idx);
+                });
+
+                item.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        const visibleItems = getCurrentlyVisibleItems();
+                        const idx = visibleItems.indexOf(item);
+                        if (idx !== -1) openLightbox(idx);
+                    }
+                });
+            });
+
+            // Lightbox controls
             btnClose.addEventListener('click', closeLightbox);
-            btnPrev.addEventListener('click', function () {
+            btnPrev.addEventListener('click', function (e) {
+                e.stopPropagation();
                 navigateLightbox(-1);
             });
-            btnNext.addEventListener('click', function () {
+            btnNext.addEventListener('click', function (e) {
+                e.stopPropagation();
                 navigateLightbox(1);
             });
 
             lightbox.addEventListener('click', function (e) {
-                // Only close when clicking the backdrop itself.
-                if (e.target === lightbox) closeLightbox();
+                if (e.target === lightbox || e.target.classList.contains('gallery-lightbox-inner')) {
+                    closeLightbox();
+                }
             });
 
             document.addEventListener('keydown', function (e) {
-                if (!lightboxState.open) return;
+                if (!lightbox.classList.contains('is-open')) return;
                 if (e.key === 'Escape') closeLightbox();
                 if (e.key === 'ArrowLeft') {
                     e.preventDefault();
@@ -519,59 +693,17 @@
                 }
             });
 
-            sections.forEach(function (section) {
-                const sectionKey = section.dataset.gallerySection;
-                const items = Array.from(section.querySelectorAll('.gallery-item'));
-                const btn = section.querySelector('.gallery-load-more[data-gallery-load-more="' + sectionKey + '"]');
-
-                items.forEach(function (item, idx) {
-                    item.dataset.galleryIndex = String(idx);
-
-                    // Only show the first 2 by default.
-                    if (idx >= 2) item.classList.add('gallery-item--hidden');
-
-                    // Make the thumbnails keyboard-accessible (Enter/Space).
-                    item.tabIndex = 0;
-                    item.setAttribute('role', 'button');
-                    const labelEl = item.querySelector('.gallery-label');
-                    const labelText = labelEl ? labelEl.textContent.trim() : '';
-                    item.setAttribute('aria-label', labelText ? ('View ' + labelText) : 'View image');
-
-                    item.addEventListener('click', function () {
-                        openLightbox(sectionKey, idx);
-                    });
-                    item.addEventListener('keydown', function (ev) {
-                        if (ev.key === 'Enter' || ev.key === ' ') {
-                            ev.preventDefault();
-                            openLightbox(sectionKey, idx);
-                        }
-                    });
-                });
-
-                let offset = 2;
-
-                // Ensure perfect centering for the initial visible set (especially when only 1 is visible).
-                updateGalleryGridAlignment(section);
-
-                if (!btn || items.length <= 2) {
-                    if (btn) btn.style.display = 'none';
-                    return;
-                }
-
-                btn.addEventListener('click', function () {
-                    const nextEnd = Math.min(offset + 2, items.length);
-
-                    for (let i = offset; i < nextEnd; i++) {
-                        items[i].classList.remove('gallery-item--hidden');
-                        items[i].classList.add('gallery-item--revealed');
-                    }
-
-                    offset = nextEnd;
-                    if (offset >= items.length) btn.style.display = 'none';
-
-                    updateGalleryGridAlignment(section);
-                });
-            });
+            // Check if URL has hash pointing to a specific category
+            const currentHash = (window.location.hash || '').toLowerCase();
+            if (currentHash === '#gallery-facilities') {
+                applyFilter('facilities', true);
+            } else if (currentHash === '#gallery-people') {
+                applyFilter('people', true);
+            } else if (currentHash === '#gallery-life-at-school') {
+                applyFilter('life', true);
+            } else {
+                applyFilter('all', true);
+            }
         });
     </script>
 </body>
