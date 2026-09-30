@@ -1825,13 +1825,8 @@ section[id], div[id] {
     border: 1px solid #cbd5e1;
     padding: 0.45rem 1rem;
     border-radius: 999px;
-    transition: all 0.18s ease;
-}
-
-.contact-quick-pill:hover {
-    border-color: var(--green-main);
-    background: #f0fdf4;
-    transform: translateY(-1px);
+    cursor: default;
+    user-select: none;
 }
 
 /* Contact Cards Grid */
@@ -1942,6 +1937,18 @@ section[id], div[id] {
     background: var(--green-dark);
     color: #ffffff;
     border-color: var(--green-dark);
+}
+
+.contact-card-btn.contact-card-btn-static {
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+}
+
+.contact-card-btn.contact-card-btn-static:hover {
+    background: #f0fdf4;
+    color: var(--green-dark);
+    border-color: #bbf7d0;
 }
 
 .contact-card-badge-open {
