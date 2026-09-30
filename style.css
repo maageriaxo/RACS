@@ -2195,11 +2195,12 @@ textarea.form-control {
 
 .form-status-alert {
     display: none;
-    padding: 1rem 1.25rem;
+    padding: 1.15rem 1.25rem;
     border-radius: 12px;
     font-size: 0.92rem;
     line-height: 1.55;
-    margin-bottom: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .form-status-alert.is-success {
