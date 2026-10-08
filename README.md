@@ -3,7 +3,8 @@
 Official multi-page website for **Rimpa Adventist Comprehensive School (RACS)**, located in Rimpa, Kajiado County, Kenya.
 
 > **Motto:** Ready To Shine  
-> **Philosophy:** Education For Eternity
+> **Philosophy:** Education For Eternity  
+> **Live Site:** [https://racs.netlify.app/](https://racs.netlify.app/)
 
 ---
 
