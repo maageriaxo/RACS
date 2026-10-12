@@ -1710,6 +1710,7 @@ section[id], div[id] {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
+    align-items: start;
 }
 
 .activity-card {
