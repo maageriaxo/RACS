@@ -1,0 +1,19 @@
+# Netlify Configuration for Rimpa Adventist Comprehensive School (RACS)
+# This is a static HTML/CSS/JS site, so no build step is needed.
+
+[build]
+  publish = "."
+  command = "echo 'Static site: No build step required.'"
+
+# Ensure clean routing and caching headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/style.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
